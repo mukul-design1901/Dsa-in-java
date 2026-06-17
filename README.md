@@ -1,2 +1,2 @@
 # Dsa-in-java
-For All Codes Open Master Branch Not Main Branch
+These are codes that I have practiced during my dsa Preparation
