@@ -1,0 +1,52 @@
+class typecast{
+	public static void main(String args[]) {
+        byte b;		
+	    short s;
+		int i;
+		long l;
+		float f;
+		double d;
+			b=Byte.parseByte(args[0]);
+		System.out.println(" the value of byte:"+b);
+		    s=Short.parseShort(args[1]);
+		System.out.println(" the value of short:"+s);
+		    i=Integer.parseInt(args[2]);
+		System.out.println(" the value of int :"+i);
+			l=Long.parseLong(args[3]);
+		System.out.println(" the value of long:"+l);
+			f=Float.parseFloat(args[4]);
+		System.out.println("the value of float :"+f);// Scanner sc =new Scanner (System.in); int a=sc.nextInt(); import java.util.*;
+			d=Double.parseDouble(args[5]);
+		System.out.println(" the value of double:"+d);
+				b=(byte)s;
+		System.out.println("the value of b after conversion from short:"+b);
+                b=(byte)i;
+        System.out.println("the value of b after conversion from int:"+b);
+                b=(byte)l;
+        System.out.println("the value of b after conversion from long:"+b);
+                b=(byte)f;
+        System.out.println("the value of b after conversion from float:"+b);
+                b=(byte)d;
+        System.out.println("the value of b after conversion from double:"+b);
+                s=(short)i;
+        System.out.println("the value of s after connversion from int:"+s);
+                s=(short)l;
+        System.out.println("the value of s after connversion from long:"+s);
+                s=(short)f;
+        System.out.println("the value of s after connversion from float:"+s);
+                s=(short)d;
+        System.out.println("the value of s after connversion from double:"+s);
+                i=(int)l;
+        System.out.println("the value of i after connversion from long:"+i);
+                i=(int)f;
+        System.out.println("the value of i after connversion from float:"+i);
+                i=(int)d;
+        System.out.println("the value of i after connversion from double:"+i);
+                l=(long)f;
+        System.out.println("the value of l after connversion from float:"+l);
+                l=(long)d;
+        System.out.println("the value of l after connversion from double:"+l);
+                f=(float)f;
+         System.out.println("the value of f after connversion from double:"+f);
+                }
+     }
